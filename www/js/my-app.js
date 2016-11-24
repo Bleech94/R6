@@ -35,13 +35,19 @@ $$(document).on('deviceready', function deviceIsReady() {
 $$(document).on('click', '.item-link', function() {
     currentMap = $$(this).text().toLowerCase();
     console.log("currentMap = " + currentMap);
+    refreshImage();
 })
 
 $$(document).on('click', '.floor', function() {
     currentFloor = parseInt($$(this).text());
     console.log("currentFloor = " + currentFloor);
+    refreshImage();
 })
 
 function refreshImage() {
-    $("#img_container").attr("src","second.jpg");
+    var newImgURL = "img/" + currentMap + "/" + currentFloor + "/floor.jpg";
+
+    console.log("new URL = " + newImgURL);
+    $$("#map-image").attr("src", newImgURL);
+
 }
