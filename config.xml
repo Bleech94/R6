@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='utf-8'?>
 <widget id="com.test.hello" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
-    <name>Test</name>
+    <name>R6 Helper</name>
     <description>
-        A basic Framework7 Media App for PhoneGap.
+        An R6 app side project.
     </description>
-    <author email="tommy@devgeeks.org" href="http://phonegap.com">
-        Adobe PhoneGap Team
+    <author email="bleech94@hotmail.com" href="http://phonegap.com">
+        Brandon Leech
     </author>
     <content src="index.html" />
     <access origin="*" />

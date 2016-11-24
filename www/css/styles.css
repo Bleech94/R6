@@ -49,6 +49,7 @@ body {
 }
 
 #map-image {
-    width:120%;
-    display:inline-block;
+    width:140%;
+    position:relative;
+    right: 20%;
 }
